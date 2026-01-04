@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    
+}
+
+body {
+    height: 100vh;
+}
+
+.box-mae {
+    padding: 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+}
+
+.box-mae p {
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.logo-Super-Mario {
+    height: 200px;
+}
+
+.logo-Mario-Luigi {
+    height: 500px;
+
+}
+
+.box-principal {
+    width: 40%;
+    
+}
+
+button {
+    color: white;
+    width: 200px;
+    height: 50px;
+    background-color: #c51111;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 30px;
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #228B22;
+    transition: all 0.4s;
+    font-size: 14px;
+    transform: scale(1.1);
+
+}
+
+.box-video {
+    position: fixed;
+    top: 0;
+   z-index: -1;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+#logo-whatsapp {
+    height: 60px;
+    position: fixed;
+    bottom: 20px; 
+    right: 20px;
+    transition: transform 0.3s ease;
+}
+
+#logo-whatsapp a:hover {
+    transform: scale(1.2);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.header img {
+    height: 60px;
+}
+
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header a:hover {
+    color: #c51111;
+    font-size: 30px;
+    transition: all 0.3s;
+}
+
+.fale-conosco {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    top: 30%;
+    left: -300px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 5px;
+    outline-color: #18d80f;
+    width: 270px;
+    height: 100px;
+}
+
+.mascara-formulario {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
